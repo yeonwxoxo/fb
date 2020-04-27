@@ -1,0 +1,342 @@
+.header-main {
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-main-logo {
+    width: 150px; 
+    height: 30px;
+    background-image: url("fblogo.png");
+    background-size: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .logo{
+    font-family: Helvetica;
+    font-size: xx-large;
+    color: #3b5998;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    padding-left: 12px;
+}
+  .header-story {
+    display: flex;
+    border-bottom: 10px solid rgb(201, 199, 199);
+  }
+  .header-story1 {
+    position: relative;
+    margin: 10px 10px 15px 10px;
+  }
+  .header-story1 > i {
+    position: absolute;
+    left: 35px;
+    top: 85px;
+  }
+  .header-story1-image {
+    width: 100px;
+    height: 100px;
+    background-image: url("iu_bluehair.jpg");
+    background-size: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center;
+    border: 1px solid #f1eeee;
+    border-bottom: none;
+  }
+  .header-story1-text {
+    width: 100px;
+    height: 70px;
+    background-color: #f8f6f6;
+    border: 1px solid #f1eeee;
+    border-top: none;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+  .header-story2{
+    position: relative;
+  }
+  .header-story2-image {
+    width: 100px;
+    height: 170px;
+    background-image: url("iu_bluehair");
+    background-size: cover;
+    border-radius: 1em;
+    margin: 10px 10px 15px 0px;
+  }
+  .header-story2-logo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:18px;
+    left:8px;
+    background-image: url("iu_dress.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(13, 126, 231);
+  }
+  .header-story2 > span{
+    position: absolute;
+      color: white;
+      top: 155px;
+      left: 8px;
+      font-size: 14px;
+  }
+
+.material-icons.md-size {
+    font-size: 23px;
+  }
+  .material-icons.md-alert {
+    font-size: 23px;
+  }
+  .material-icons.md-nav {
+      font-size: 30px;
+      color: rgb(100, 100, 100);
+    }
+  .material-icons.md-camera {
+    font-size: 30px;
+    color: #d81e69;
+  }
+  .material-icons.md-picture {
+    font-size: 20px;
+    color: #4ab64a;
+  }
+  .material-icons.md-checkin {
+    font-size: 25px;
+    color: #db0569;
+  }
+  .material-icons.md-earth {
+    font-size: 20px;
+    color: gray;
+  }
+  .material-icons.md-dot {
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+  }
+  .material-icons.md-add {
+    font-size: 36px;
+    color: rgb(13, 126, 231);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  .material-icons.md-circle {
+    font-size: 2.2em;
+    background-color: #e9ebed;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .material-icons.md-good {
+    font-size: 10px;
+    color: white;
+    background-color: #3578e5;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  .material-icons.md-heart {
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  .material-icons.md-tri {
+    font-size: 10px;
+    color: gray;
+  }
+  .material-icons.md-home {
+      font-size: 30px;
+      color: rgb(13, 126, 231);
+    }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .space-around {
+    display: flex;
+    justify-content: space-around;
+  }
+  #text-center {
+    text-align: center;
+  }
+  #bold {
+    font-weight: bold;
+  }
+  #gray {
+    color: rgb(129, 128, 128);
+  }
+  body {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "helvetica", sans-serif;
+  }
+ 
+  .contents-write {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid #f1eeee;
+  }
+  .contents-write-1 {
+    width: 250px;
+  }
+  .contents-image {
+    width: 50px;
+    height: 50px;
+    background-image: url("iu_bluehair.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #f1eeee;
+    background-position: center;
+    margin: 15px 10px 15px 15px;
+  }
+  .button {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 10px solid rgb(201, 199, 199);
+    font-size: 18px;
+  }
+  .button-box > span {
+    margin-right: 5px;
+  }
+  .button-box {
+    margin: 7px 0px 7px 0px;
+  }
+  
+  .cardview-content {
+    margin: 0px 0px 10px 10px;
+  }
+  .mainpage {
+    display: flex;
+    align-items: center;
+  }
+  .mainpage-img {
+    width: 60px;
+    height: 50px;
+    background-image: url("iu_profile.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin: 12px 0px 12px 12px;
+  }
+  .mainpage-cont {
+    width: 100%;
+    margin: 12px;
+  }
+  .mainpage-cont1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mainpage-cont2 {
+    display: flex;
+    align-items: center;
+  }
+  .cont-img {
+    display: flex;
+    width: 100%;
+  }
+  .cont-img-big {
+    width: 62%;
+    height: 402px;
+    background-image: url("IU_Awards.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .cont-img-small {
+    width: 32%;
+    height: 402px;
+  }
+  .cont-img-1 {
+    height: 33%;
+    background-image: url("IU_Awards.jpg");
+    background-size: cover;
+    margin: 0px 0px 3px 3px;
+  }
+  .cont-img-2 {
+    height: 33%;
+    background-image: url("iu_bluehair.jpg");
+    background-size: cover;
+    margin: 0px 0px 3px 3px;
+  }
+  .cont-img-3 {
+    height: 33%;
+    background-image: url("iu_dress.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    position: relative;
+  }
+ 
+  .comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1eeee;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 10px 0px 10px;
+    font-size: 18px;
+  }
+  .comment-left {
+    position: relative;
+  }
+  .comment-left > span {
+    position: absolute;
+    left: 40px;
+    width: 70px;
+  }
+  .comment-left2 {
+    position: absolute;
+    left: 15px;
+    z-index: -1;
+  }
+  .comment-right {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .comment-right-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("profileicon.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+  }
+  .comment-button {
+    border-bottom: 5px solid rgb(201, 199, 199);
+    margin-bottom: 70px;
+  }
+  .commnet-button-place {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .commnet-button-place  > span {
+    margin-right: 8px;
+  }
+  .nav-bar {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+  }
+  .nav-bar>span{
+      padding-top: 8px;
+      margin-left:30px;
+  }
+  #select{
+      border-top:2px solid rgb(13, 126, 231) ;
+      padding-top: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
